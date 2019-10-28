@@ -1,0 +1,79 @@
+/*
+Creator: Ryan Maurer
+Date created: 10.19.19
+Date last modified: 10.26.19
+CSS
+*/
+
+
+
+header, footer{
+	background-color: #454545;
+	color: #f1fffa;
+	text-align: center;
+	padding: 20px 20px 10px 10px;
+	height: 100px;
+	font-family: 'Josefin Sans', sans-serif;
+	background-image: linear-gradient(#454545, #515151);
+
+}
+
+h1 {
+	
+	font-size: 5em;
+}
+
+.jumbotron {
+	background-color: #454545;
+	background-image: linear-gradient(#454545, #515151);
+	color: #f1fffa;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	margin: auto;
+	font-family: 'Staatliches', cursive;
+}
+
+body{
+	background-color: #f1fffa;
+	font-family: 'Barlow', sans-serif;
+}
+
+.content{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+nav a {
+  display: inline-block;
+  color:#f1fffa;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 15px;
+  background-color: #454545;
+  width: auto;
+  
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: #f1fffa;
+ 
+}
+
+nav a:active {
+  background-color: #93b7be;
+  color: #454545;
+}
+
+nav a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+nav a:visited{
+	color: #d5c7bc;
+}
+

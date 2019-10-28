@@ -1,0 +1,199 @@
+<!DOCTYPE html> 
+<!--
+    Name: Ryan Maurer
+    Date Created: 10.19.19
+    Most recent revision: 10.26.19
+-->
+
+<html lang=en>
+	
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Menu</title>
+	
+<!--LINK TO BOOSTRAP CDN --> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+
+<!-- LINK TO EXTERNAL STYLE SHEET --> 
+<link href="restaurantStyles.css" rel="stylesheet" type="text/css"> 
+	
+<!-- FONT LINK FOR HOME ICON --> 
+<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+
+<!-- GOOGLE FONTS LINK --> 
+<link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+	
+<style>
+	
+	.menu-heading {
+		font-size: 1.1em;
+		padding-top: 25px;
+	}
+	
+	.right-content{
+		float:left;
+	}
+	
+	.clear-float{
+		clear:both;
+	}
+	
+	
+	table{
+		border: 1px solid;
+		border-color: lightgray;
+		border-collapse: collapse;
+		width:300px;
+
+	}
+	th{
+		text-align: left;
+		padding-top: 5px;
+		font-size: 1.1em;
+	}
+	tr:nth-child(even){
+		background-color: #93b7be;
+	}
+
+	tr{
+		height: 35px;
+	}
+	
+</style>
+
+</head>
+
+	<body>
+		<div class="jumbotron jumbotron-fluid">
+  			<div class="container">
+				<h1>Calhoun Grille</h1> 
+				<br>
+    			<p style ="font-style: italic; font-size: 0.95em;">St. Paul location coming soon!</p>
+			</div>
+		</div>
+		
+	<!-- CAROUSEL --> 
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+	  <div class="carousel-inner">
+		<div class="carousel-item active">
+		  <img class="d-block w-100" src="images/newlocation.jpg" alt="First slide">
+			<div class="carousel-caption d-none d-md-block">
+				<h4>We're opening a new location!</h4>
+  			</div>
+		</div>
+		<div class="carousel-item">
+		  <img class="d-block w-100" src="images/fall.jpg" alt="Second slide">
+			<div class="carousel-caption d-none d-md-block">
+				<h4>We're rolling out our seasonal menu, with special options for this season.</h4>
+  			</div>
+		</div>
+		<div class="carousel-item">
+		  <img class="d-block w-100" src="images/beer.jpg" alt="Third slide">
+			<div class="carousel-caption d-none d-md-block">
+				<h4>The Drink of the Month is SG Special Brew.</h4>
+  			</div>
+		</div>
+	  </div>
+	  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	  </a>
+	</div>
+	<noscript>
+      This website is best viewed with JavaScript enabled in your browser. 
+      Here are the <a href="http://www.enable-javascript.com/" target="_blank">
+      instructions how to enable JavaScript in your web browser</a>.
+  	</noscript>	
+		
+		<hr>
+		<div class="content"> <!-- THIS IS WHERE THE MAIN CONTENT OF THE PAGE BEGINS --> 
+			
+		<nav>
+			<a href="index.html"><i class="fas fa-home"></i></a>
+			<a href="menu.html">Menu</a>
+			<a href="contact.html">Contact Us</a>
+		
+		</nav>
+		<hr>
+		<div class="row" style="align-content: center">
+		<div class="col-lg-4 col-md-6 mt-2 text-left">
+		<p><strong><div class="menu-heading">Burger and Fries</div></strong><br>An American Classic!<br>Your choice - with or without cheese<br>Pickle, onion, tomato, and lettuce<br>Served with our famous thick cut french fries<br>$7.95</p>
+		</div>
+		
+		<div class="col-lg-4 col-md-6 mt-2 text-left">
+		<p><strong><div class="menu-heading">Hot Dot and Chips</div></strong><br>A Summer Classic<br>Your choice - white or wheat bun<br>Relish, mustard, and ketchup<br>Served with our house-made chips<br>$7.95</p>
+		</div>
+
+		<div class="col-lg-4 col-md-6 mt-2">
+		<p><strong><div class="menu-heading">Italian Sausage and Peppers</div></strong><br>An All-Time Favorite!<br>Your choice - mild or spicy Cole Slaw<br>Served with garlic mashers<br>$10.95</p>
+			</div>
+		
+		<div class="col-lg-4 col-md-6 mt-2">
+		<p><strong><div class="menu-heading">Tenderloin Sandwich and Chips</div></strong><br>Really Hits the Spot!<br>Plain or Seasame Seed Bun<br>Pickle, onion, tomato, and lettuce<br>Served with our house-made chips<br>$8.95</p>
+			</div>
+		
+		
+				<div class="col-lg-4 col-md-6 mt-2">
+
+		<p><strong><div class="menu-heading">House Salad</div></strong><br>On the Ligher Side<br>Your choice - with or without cheese<br>Iceberg lettuce, tomatoes, peppers<br>Thousand Island or Ranch<br>Dresssing Served with a dinner roll<br>$6.95</p>
+			</div>
+					<div class="col-lg-4 col-md-6 mt-2">
+
+		
+		<p><strong><div class="menu-heading">Brisket Sandwhich and Fries</div></strong><br>A Taste of Texas!<br>Smoked Brisket on thick-cut<br>Texas Toast<br>Cole Slaw<br>Served with our famous thick-cut french fries<br>$7.95</p>
+			</div>
+			</div>
+		
+		<br>
+		<br>
+		<br>
+		<!--begin code for menu table-->
+		<table>
+			<thead>
+				<th colspan="2">Beverages</th>
+			</thead>
+			<tr>
+				<td>Root Beer</td>
+				<td>$3.00</td>
+			</tr>
+			<tr>
+				<td>Bottled Water</td>
+				<td>$1.25</td>
+			</tr>
+			<tr>
+				<td>Lemonade</td>
+				<td>$1.00</td>
+			</tr>
+			<tr> 
+				<td>Iced Tea</td>
+				<td>$1.25</td>
+			</tr>
+		</table>
+		
+
+	
+		</div>
+		<hr>
+		<footer>
+		<p>1455 W Lake Street Minneapolis, MN 55416</p>
+		<p>612-205-2878</p>
+		
+		</footer>
+		
+		
+		
+		
+		<!-- EXTERNAL JS LINKS --> 
+	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>	
+	</body>
+	
+
+	
+</html>
